@@ -1,0 +1,51 @@
+# =============================================================================
+# Research Paper Answer Bot — Dependencies
+# =============================================================================
+# Install: pip install -r requirements.txt
+# =============================================================================
+
+# --- Core LangChain ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-google-genai>=2.0.0
+langchain-openai>=0.2.0
+langchain-huggingface>=0.1.0
+langchain-chroma>=0.2.0
+langchain-experimental>=0.3.0
+
+# --- Document Loading ---
+pypdf>=4.0.0
+pdfplumber>=0.11.0
+
+# --- Embeddings & Models ---
+sentence-transformers>=3.0.0
+openai>=1.40.0
+
+# --- Vector Database ---
+chromadb>=0.5.0
+
+# --- Retrieval ---
+rank-bm25>=0.2.2
+
+# --- Evaluation ---
+ragas>=0.2.0
+datasets>=2.20.0
+
+# --- UI (Stretch Goal 2) ---
+streamlit>=1.38.0
+
+# --- Data Analysis & Visualization ---
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.9.0
+seaborn>=0.13.0
+
+# --- Utilities ---
+python-dotenv>=1.0.0
+requests>=2.32.0
+tqdm>=4.66.0
+
+# --- Jupyter ---
+jupyter>=1.0.0
+ipykernel>=6.29.0

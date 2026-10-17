@@ -1,0 +1,38 @@
+# =============================================================================
+# Research Paper Answer Bot — .gitignore
+# =============================================================================
+
+# Environment & Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Vector Store (auto-generated, can be rebuilt)
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Downloaded papers (large PDFs — optional, can re-download)
+# Uncomment below if you don't want to track PDFs in git:
+# papers/*.pdf
